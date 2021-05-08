@@ -1,0 +1,21 @@
+// load the base configuration
+exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+
+con_logfile console.log
+con_timestamp 1
+con_logfile console.log
+con_timestamp 1
+con_logfile console.log
+con_timestamp 1
